@@ -1,4 +1,8 @@
 body {
+  /* background-image: url("defaultbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; */
   background-color: #f0f0f0;
 }
 
@@ -9,6 +13,18 @@ h1 {
 }
 
 p {
+  font-family: "MONOFUR", "MS Gothic", Gothic, sans-serif;
+  font-size: 12px;
   color: #3c3c3c;
   text-align: left;
+}
+
+code {
+  background-color: rgb(210, 255, 177);
+  border-left-style: solid;
+  border-left-width: 7px;
+  border-left-color: rgb(210, 255, 57);
+  font-family: "MONOFUR", "PROFONT", "MONACO", Courier, sans-serif;
+  font-size: 12px;
+  font-style: italic;
 }
