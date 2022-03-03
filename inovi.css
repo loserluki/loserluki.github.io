@@ -63,7 +63,7 @@ code {
   height: 100%;
   margin: auto;
   width: 90vw;
-  -webkit-transform: skew(-60deg); transform: skew(-60deg);
+  -webkit-transform: skew(-75deg); transform: skew(-60deg);
 }
 
 .line {
@@ -72,7 +72,7 @@ code {
   height: 100%;
   top: 0;
   left: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0);
   overflow: hidden;
 }
 
