@@ -91,11 +91,11 @@ code {
 }
 
 .line:nth-child(1) {
-  margin-left: -10%; }
+  margin-left: -25%; }
   .line:nth-child(1)::after {
     animation-delay: 2s; }
 .line:nth-child(3) {
-  margin-left: 10%; }
+  margin-left: 25%; }
   .line:nth-child(3)::after {
     animation-delay: 2.5s; }
 
