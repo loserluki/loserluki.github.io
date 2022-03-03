@@ -91,21 +91,13 @@ code {
 }
 
 .line:nth-child(1) {
-  margin-left: -25%; }
+  margin-left: -10%; }
   .line:nth-child(1)::after {
     animation-delay: 2s; }
 .line:nth-child(3) {
-  margin-left: 25%; }
+  margin-left: 10%; }
   .line:nth-child(3)::after {
     animation-delay: 2.5s; }
-.line:nth-child(5) {
-  margin-left: -10%; }
-  .line:nth-child(5)::after {
-    animation-delay: 6s; }
-.line:nth-child(7) {
-  margin-left: 10%; }
-  .line:nth-child(7)::after {
-    animation-delay: 3.75s; }
 
 @keyframes drop {
   0% { top: -50%; }
