@@ -1,9 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
 body {
   /* background-image: url("defaultbg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; */
   background-color: #171717;
+  display: table;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  line-height: 1.6;
+  position: relative;
+  overflow: hidden;
 }
 
 img {
