@@ -6,6 +6,12 @@ body {
   background-color: #fffeed;
 }
 
+img {
+  max-width:100%;
+  height:auto;
+  width:auto;
+}
+
 h1 {
   background-color: #d95050;
   color: #fffeed;
@@ -27,4 +33,11 @@ code {
   font-family: "MONOFUR", "PROFONT", "MONACO", Courier, sans-serif;
   font-size: 12px;
   font-style: italic;
+}
+
+bgmask {
+  -webkit-mask-image:url(maskimg.png);
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  -webkit-mask-size:auto auto;
 }
